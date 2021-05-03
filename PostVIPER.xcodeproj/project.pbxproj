@@ -11,6 +11,10 @@
 		51AB2F552640195600460F16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB2F542640195600460F16 /* SceneDelegate.swift */; };
 		51AB2F5C2640195800460F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AB2F5B2640195800460F16 /* Assets.xcassets */; };
 		51AB2F5F2640195800460F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AB2F5D2640195800460F16 /* LaunchScreen.storyboard */; };
+		51DA4B6D26401F0E00469F23 /* ImagesAndIconsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4B6B26401F0E00469F23 /* ImagesAndIconsConstants.swift */; };
+		51DA4B6E26401F0E00469F23 /* NibName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4B6C26401F0E00469F23 /* NibName.swift */; };
+		CD7F71CF87C0FFE06868FC73 /* NibName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F72A984C22BEA95DB25ED /* NibName.swift */; };
+		CD7F7643883D7FBEB739CF6F /* ImagesAndIconsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F778B0D9F03AF5DBFD494 /* ImagesAndIconsConstants.swift */; };
 		CD7F7873060C64A166A9FEE8 /* SceneAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F702796EB44BC8E60D9FA /* SceneAssembly.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +25,11 @@
 		51AB2F5B2640195800460F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51AB2F5E2640195800460F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51AB2F602640195800460F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51DA4B6B26401F0E00469F23 /* ImagesAndIconsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesAndIconsConstants.swift; sourceTree = "<group>"; };
+		51DA4B6C26401F0E00469F23 /* NibName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibName.swift; sourceTree = "<group>"; };
 		CD7F702796EB44BC8E60D9FA /* SceneAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneAssembly.swift; sourceTree = "<group>"; };
+		CD7F72A984C22BEA95DB25ED /* NibName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NibName.swift; path = Commons/NibName.swift; sourceTree = "<group>"; };
+		CD7F778B0D9F03AF5DBFD494 /* ImagesAndIconsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagesAndIconsConstants.swift; path = Commons/ImagesAndIconsConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,42 @@
 		51AB2F512640195600460F16 /* PostVIPER */ = {
 			isa = PBXGroup;
 			children = (
-				51AB2F522640195600460F16 /* AppDelegate.swift */,
-				51AB2F542640195600460F16 /* SceneDelegate.swift */,
+				51DA4B6A26401F0E00469F23 /* Commons */,
+				51DA4B6626401E1C00469F23 /* Initial App */,
 				51AB2F5B2640195800460F16 /* Assets.xcassets */,
 				51AB2F5D2640195800460F16 /* LaunchScreen.storyboard */,
 				51AB2F602640195800460F16 /* Info.plist */,
-				CD7F702796EB44BC8E60D9FA /* SceneAssembly.swift */,
+				CD7F72A984C22BEA95DB25ED /* NibName.swift */,
+				CD7F778B0D9F03AF5DBFD494 /* ImagesAndIconsConstants.swift */,
 			);
 			path = PostVIPER;
+			sourceTree = "<group>";
+		};
+		51DA4B6626401E1C00469F23 /* Initial App */ = {
+			isa = PBXGroup;
+			children = (
+				51AB2F522640195600460F16 /* AppDelegate.swift */,
+				51AB2F542640195600460F16 /* SceneDelegate.swift */,
+				51DA4B6726401E2F00469F23 /* DI */,
+			);
+			path = "Initial App";
+			sourceTree = "<group>";
+		};
+		51DA4B6726401E2F00469F23 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				CD7F702796EB44BC8E60D9FA /* SceneAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		51DA4B6A26401F0E00469F23 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				51DA4B6B26401F0E00469F23 /* ImagesAndIconsConstants.swift */,
+				51DA4B6C26401F0E00469F23 /* NibName.swift */,
+			);
+			path = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				51AB2F532640195600460F16 /* AppDelegate.swift in Sources */,
+				51DA4B6E26401F0E00469F23 /* NibName.swift in Sources */,
 				51AB2F552640195600460F16 /* SceneDelegate.swift in Sources */,
+				51DA4B6D26401F0E00469F23 /* ImagesAndIconsConstants.swift in Sources */,
 				CD7F7873060C64A166A9FEE8 /* SceneAssembly.swift in Sources */,
+				CD7F71CF87C0FFE06868FC73 /* NibName.swift in Sources */,
+				CD7F7643883D7FBEB739CF6F /* ImagesAndIconsConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
