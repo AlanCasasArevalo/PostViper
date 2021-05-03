@@ -30,6 +30,7 @@
 		51DA4BBF2640242A00469F23 /* HomeTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA4BBB2640242A00469F23 /* HomeTabViewController.xib */; };
 		51DA4BC32640633900469F23 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4BC22640633900469F23 /* HomePresenter.swift */; };
 		CD7F703C1954E7C58BD5EBF1 /* UpdatePostPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F774074B319F7C3635704 /* UpdatePostPresenter.swift */; };
+		CD7F7132FBEDD75CBBF033AC /* UpdatePostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F77F16DE24A4208765960 /* UpdatePostRouter.swift */; };
 		CD7F71CF87C0FFE06868FC73 /* NibName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F72A984C22BEA95DB25ED /* NibName.swift */; };
 		CD7F753FC8C5DFF88ABD78AE /* UpdatePostInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F7B41995FC529FECE3657 /* UpdatePostInteractor.swift */; };
 		CD7F762DD3845D42067B7341 /* PostDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F74DE0AFD16EADA8D1588 /* PostDetailInteractor.swift */; };
@@ -39,6 +40,9 @@
 		CD7F79991ADA08CE07C22ECB /* AddPostInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F79E2D46CC6436A974D70 /* AddPostInteractor.swift */; };
 		CD7F7C90A5D135C14382207C /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F7D0048260355F7E02215 /* HomeInteractor.swift */; };
 		CD7F7D677F8647DF817AF407 /* AddPostPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F728F390C0C23624EB823 /* AddPostPresenter.swift */; };
+		CD7F7F506AE7D548CD3ACE1C /* AddPostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F7F99E675B96474ED9069 /* AddPostRouter.swift */; };
+		CD7F7F7291D1AA5862B914FF /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F7894C1724C07189FD923 /* HomeRouter.swift */; };
+		CD7F7F94DC3396F46274F9AB /* PostDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F7084633085CE06B246EE /* PostDetailRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,15 +71,19 @@
 		51DA4BBB2640242A00469F23 /* HomeTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTabViewController.xib; sourceTree = "<group>"; };
 		51DA4BC22640633900469F23 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		CD7F702796EB44BC8E60D9FA /* SceneAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneAssembly.swift; sourceTree = "<group>"; };
+		CD7F7084633085CE06B246EE /* PostDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailRouter.swift; sourceTree = "<group>"; };
 		CD7F728F390C0C23624EB823 /* AddPostPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostPresenter.swift; sourceTree = "<group>"; };
 		CD7F72A984C22BEA95DB25ED /* NibName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibName.swift; sourceTree = "<group>"; };
 		CD7F74DE0AFD16EADA8D1588 /* PostDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailInteractor.swift; sourceTree = "<group>"; };
 		CD7F774074B319F7C3635704 /* UpdatePostPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePostPresenter.swift; sourceTree = "<group>"; };
 		CD7F778B0D9F03AF5DBFD494 /* ImagesAndIconsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesAndIconsConstants.swift; sourceTree = "<group>"; };
+		CD7F77F16DE24A4208765960 /* UpdatePostRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePostRouter.swift; sourceTree = "<group>"; };
+		CD7F7894C1724C07189FD923 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		CD7F79E2D46CC6436A974D70 /* AddPostInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostInteractor.swift; sourceTree = "<group>"; };
 		CD7F7B41995FC529FECE3657 /* UpdatePostInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePostInteractor.swift; sourceTree = "<group>"; };
 		CD7F7C741F2D4B9AEC9AD697 /* PostDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailPresenter.swift; sourceTree = "<group>"; };
 		CD7F7D0048260355F7E02215 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		CD7F7F99E675B96474ED9069 /* AddPostRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +173,7 @@
 				51DA4BA42640214F00469F23 /* DI */,
 				51DA4BC22640633900469F23 /* HomePresenter.swift */,
 				CD7F7D0048260355F7E02215 /* HomeInteractor.swift */,
+				CD7F7894C1724C07189FD923 /* HomeRouter.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -176,6 +185,7 @@
 				51DA4BA82640216D00469F23 /* DI */,
 				CD7F728F390C0C23624EB823 /* AddPostPresenter.swift */,
 				CD7F79E2D46CC6436A974D70 /* AddPostInteractor.swift */,
+				CD7F7F99E675B96474ED9069 /* AddPostRouter.swift */,
 			);
 			path = "Add Post";
 			sourceTree = "<group>";
@@ -187,6 +197,7 @@
 				51DA4BAD2640222F00469F23 /* DI */,
 				CD7F774074B319F7C3635704 /* UpdatePostPresenter.swift */,
 				CD7F7B41995FC529FECE3657 /* UpdatePostInteractor.swift */,
+				CD7F77F16DE24A4208765960 /* UpdatePostRouter.swift */,
 			);
 			path = "Update Post";
 			sourceTree = "<group>";
@@ -198,6 +209,7 @@
 				51DA4BB22640224300469F23 /* DI */,
 				CD7F7C741F2D4B9AEC9AD697 /* PostDetailPresenter.swift */,
 				CD7F74DE0AFD16EADA8D1588 /* PostDetailInteractor.swift */,
+				CD7F7084633085CE06B246EE /* PostDetailRouter.swift */,
 			);
 			path = "Post Detail";
 			sourceTree = "<group>";
@@ -388,6 +400,10 @@
 				CD7F7C90A5D135C14382207C /* HomeInteractor.swift in Sources */,
 				CD7F762DD3845D42067B7341 /* PostDetailInteractor.swift in Sources */,
 				CD7F753FC8C5DFF88ABD78AE /* UpdatePostInteractor.swift in Sources */,
+				CD7F7F506AE7D548CD3ACE1C /* AddPostRouter.swift in Sources */,
+				CD7F7F7291D1AA5862B914FF /* HomeRouter.swift in Sources */,
+				CD7F7F94DC3396F46274F9AB /* PostDetailRouter.swift in Sources */,
+				CD7F7132FBEDD75CBBF033AC /* UpdatePostRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
