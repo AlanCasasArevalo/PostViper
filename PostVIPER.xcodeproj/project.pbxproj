@@ -33,6 +33,7 @@
 		CD7F7132FBEDD75CBBF033AC /* UpdatePostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F77F16DE24A4208765960 /* UpdatePostRouter.swift */; };
 		CD7F71CF87C0FFE06868FC73 /* NibName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F72A984C22BEA95DB25ED /* NibName.swift */; };
 		CD7F753FC8C5DFF88ABD78AE /* UpdatePostInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F7B41995FC529FECE3657 /* UpdatePostInteractor.swift */; };
+		CD7F754C94F33B740B3C62FD /* TextField+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F7A40444D2850226F063A /* TextField+UIApplication.swift */; };
 		CD7F762DD3845D42067B7341 /* PostDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F74DE0AFD16EADA8D1588 /* PostDetailInteractor.swift */; };
 		CD7F7643883D7FBEB739CF6F /* ImagesAndIconsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F778B0D9F03AF5DBFD494 /* ImagesAndIconsConstants.swift */; };
 		CD7F785F5A0EDA0F0C3FD588 /* PostDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F7C741F2D4B9AEC9AD697 /* PostDetailPresenter.swift */; };
@@ -80,6 +81,7 @@
 		CD7F77F16DE24A4208765960 /* UpdatePostRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePostRouter.swift; sourceTree = "<group>"; };
 		CD7F7894C1724C07189FD923 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		CD7F79E2D46CC6436A974D70 /* AddPostInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostInteractor.swift; sourceTree = "<group>"; };
+		CD7F7A40444D2850226F063A /* TextField+UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField+UIApplication.swift"; sourceTree = "<group>"; };
 		CD7F7B41995FC529FECE3657 /* UpdatePostInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePostInteractor.swift; sourceTree = "<group>"; };
 		CD7F7C741F2D4B9AEC9AD697 /* PostDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailPresenter.swift; sourceTree = "<group>"; };
 		CD7F7D0048260355F7E02215 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			children = (
 				CD7F72A984C22BEA95DB25ED /* NibName.swift */,
 				CD7F778B0D9F03AF5DBFD494 /* ImagesAndIconsConstants.swift */,
+				CD7F7A40444D2850226F063A /* TextField+UIApplication.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				CD7F7F7291D1AA5862B914FF /* HomeRouter.swift in Sources */,
 				CD7F7F94DC3396F46274F9AB /* PostDetailRouter.swift in Sources */,
 				CD7F7132FBEDD75CBBF033AC /* UpdatePostRouter.swift in Sources */,
+				CD7F754C94F33B740B3C62FD /* TextField+UIApplication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

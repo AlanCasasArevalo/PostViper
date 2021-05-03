@@ -9,6 +9,8 @@ class AddPostViewController: UIViewController {
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var bodyTextField: UITextField!
     @IBOutlet weak var userIdTextField: UITextField!
+
+    var presenter: AddPostPresenterProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()

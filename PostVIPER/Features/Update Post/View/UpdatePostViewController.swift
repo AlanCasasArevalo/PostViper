@@ -10,6 +10,8 @@ class UpdatePostViewController: UIViewController {
     @IBOutlet weak var bodyTextField: UITextField!
     @IBOutlet weak var userIdTextField: UITextField!
     @IBOutlet weak var postIdTextField: UITextField!
+
+    var presenter: UpdatePostPresenterProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,7 +7,9 @@ protocol HomeViewControllerProtocol: class {
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var postTableView: UITableView!
-    
+
+    var presenter: HomePresenterProtocol?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupDelegatesAndDataSource()
@@ -37,4 +39,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
  
+}
+
+extension HomeViewController: HomeViewControllerProtocol {
+
 }
