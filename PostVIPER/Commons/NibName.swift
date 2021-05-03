@@ -5,5 +5,6 @@ struct NibName {
     static let addPostViewController = "AddPostViewController"
     static let postDetailViewController = "PostDetailViewController"
     static let updatePostViewController = "UpdatePostViewController"
+    static let tabViewController = "HomeTabViewController"
 }
 

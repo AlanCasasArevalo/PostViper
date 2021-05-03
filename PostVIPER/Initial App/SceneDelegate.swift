@@ -6,7 +6,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        let initialVC = sceneAssembly.coreAssembly
+        let initialVC = sceneAssembly.coreAssembly.homeTabBar.homeTabbarController()
         sceneAssembly.window.rootViewController = initialVC
         sceneAssembly.window.makeKeyAndVisible()
         sceneAssembly.window.windowScene = windowScene
