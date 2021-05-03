@@ -9,21 +9,22 @@ import UIKit
 
 class AddPostViewController: UIViewController {
 
+    @IBOutlet weak var titleTextField: UITextField!
+    @IBOutlet weak var bodyTextField: UITextField!
+    @IBOutlet weak var userIdTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setupDelegates()
     }
 
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension AddPostViewController: UITextFieldDelegate {
+    func setupDelegates () {
+        titleTextField.delegate = self
+        bodyTextField.delegate = self
+        userIdTextField.delegate = self
     }
-    */
-
 }
