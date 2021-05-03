@@ -1,11 +1,8 @@
-//
-//  UpdatePostViewController.swift
-//  PostVIPER
-//
-//  Created by Alan Casas on 03/05/2021.
-//
-
 import UIKit
+
+protocol UpdatePostViewControllerProtocol: class {
+
+}
 
 class UpdatePostViewController: UIViewController {
     
@@ -29,4 +26,7 @@ extension UpdatePostViewController: UITextFieldDelegate {
         userIdTextField.delegate = self
         postIdTextField.delegate = self
     }
+}
+
+extension UpdatePostViewController: UpdatePostViewControllerProtocol {
 }

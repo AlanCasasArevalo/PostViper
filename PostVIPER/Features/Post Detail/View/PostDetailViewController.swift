@@ -1,11 +1,8 @@
-//
-//  PostDetailViewController.swift
-//  PostVIPER
-//
-//  Created by Alan Casas on 03/05/2021.
-//
-
 import UIKit
+
+protocol PostDetailViewControllerProtocol: class {
+
+}
 
 class PostDetailViewController: UIViewController {
 
@@ -17,5 +14,9 @@ class PostDetailViewController: UIViewController {
         super.viewDidLoad()
 
     }
+
+}
+
+extension PostDetailViewController: PostDetailViewControllerProtocol {
 
 }

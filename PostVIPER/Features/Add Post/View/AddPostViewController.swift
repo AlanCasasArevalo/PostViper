@@ -1,11 +1,8 @@
-//
-//  AddPostViewController.swift
-//  PostVIPER
-//
-//  Created by Alan Casas on 03/05/2021.
-//
-
 import UIKit
+
+protocol AddPostViewControllerProtocol: class {
+
+}
 
 class AddPostViewController: UIViewController {
 
@@ -27,4 +24,8 @@ extension AddPostViewController: UITextFieldDelegate {
         bodyTextField.delegate = self
         userIdTextField.delegate = self
     }
+}
+
+extension AddPostViewController: AddPostViewControllerProtocol {
+
 }
