@@ -11,8 +11,14 @@
 		51AB2F552640195600460F16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB2F542640195600460F16 /* SceneDelegate.swift */; };
 		51AB2F5C2640195800460F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AB2F5B2640195800460F16 /* Assets.xcassets */; };
 		51AB2F5F2640195800460F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AB2F5D2640195800460F16 /* LaunchScreen.storyboard */; };
-		51DA4B6D26401F0E00469F23 /* ImagesAndIconsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4B6B26401F0E00469F23 /* ImagesAndIconsConstants.swift */; };
-		51DA4B6E26401F0E00469F23 /* NibName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4B6C26401F0E00469F23 /* NibName.swift */; };
+		51DA4B7A26401FC200469F23 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4B7826401FC200469F23 /* HomeViewController.swift */; };
+		51DA4B7B26401FC200469F23 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA4B7926401FC200469F23 /* HomeViewController.xib */; };
+		51DA4B7F26401FD200469F23 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4B7D26401FD200469F23 /* AddPostViewController.swift */; };
+		51DA4B8026401FD200469F23 /* AddPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA4B7E26401FD200469F23 /* AddPostViewController.xib */; };
+		51DA4B8426401FE200469F23 /* UpdatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4B8226401FE200469F23 /* UpdatePostViewController.swift */; };
+		51DA4B8526401FE200469F23 /* UpdatePostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA4B8326401FE200469F23 /* UpdatePostViewController.xib */; };
+		51DA4B8926401FF100469F23 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4B8726401FF100469F23 /* PostDetailViewController.swift */; };
+		51DA4B8A26401FF100469F23 /* PostDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA4B8826401FF100469F23 /* PostDetailViewController.xib */; };
 		CD7F71CF87C0FFE06868FC73 /* NibName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F72A984C22BEA95DB25ED /* NibName.swift */; };
 		CD7F7643883D7FBEB739CF6F /* ImagesAndIconsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F778B0D9F03AF5DBFD494 /* ImagesAndIconsConstants.swift */; };
 		CD7F7873060C64A166A9FEE8 /* SceneAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F702796EB44BC8E60D9FA /* SceneAssembly.swift */; };
@@ -25,11 +31,17 @@
 		51AB2F5B2640195800460F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51AB2F5E2640195800460F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51AB2F602640195800460F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51DA4B6B26401F0E00469F23 /* ImagesAndIconsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesAndIconsConstants.swift; sourceTree = "<group>"; };
-		51DA4B6C26401F0E00469F23 /* NibName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibName.swift; sourceTree = "<group>"; };
+		51DA4B7826401FC200469F23 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		51DA4B7926401FC200469F23 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		51DA4B7D26401FD200469F23 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		51DA4B7E26401FD200469F23 /* AddPostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPostViewController.xib; sourceTree = "<group>"; };
+		51DA4B8226401FE200469F23 /* UpdatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePostViewController.swift; sourceTree = "<group>"; };
+		51DA4B8326401FE200469F23 /* UpdatePostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdatePostViewController.xib; sourceTree = "<group>"; };
+		51DA4B8726401FF100469F23 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		51DA4B8826401FF100469F23 /* PostDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostDetailViewController.xib; sourceTree = "<group>"; };
 		CD7F702796EB44BC8E60D9FA /* SceneAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneAssembly.swift; sourceTree = "<group>"; };
-		CD7F72A984C22BEA95DB25ED /* NibName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NibName.swift; path = Commons/NibName.swift; sourceTree = "<group>"; };
-		CD7F778B0D9F03AF5DBFD494 /* ImagesAndIconsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagesAndIconsConstants.swift; path = Commons/ImagesAndIconsConstants.swift; sourceTree = "<group>"; };
+		CD7F72A984C22BEA95DB25ED /* NibName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibName.swift; sourceTree = "<group>"; };
+		CD7F778B0D9F03AF5DBFD494 /* ImagesAndIconsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesAndIconsConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +79,7 @@
 				51AB2F5B2640195800460F16 /* Assets.xcassets */,
 				51AB2F5D2640195800460F16 /* LaunchScreen.storyboard */,
 				51AB2F602640195800460F16 /* Info.plist */,
-				CD7F72A984C22BEA95DB25ED /* NibName.swift */,
-				CD7F778B0D9F03AF5DBFD494 /* ImagesAndIconsConstants.swift */,
+				51DA4B8C26401FF600469F23 /* Features */,
 			);
 			path = PostVIPER;
 			sourceTree = "<group>";
@@ -94,10 +105,89 @@
 		51DA4B6A26401F0E00469F23 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
-				51DA4B6B26401F0E00469F23 /* ImagesAndIconsConstants.swift */,
-				51DA4B6C26401F0E00469F23 /* NibName.swift */,
+				CD7F72A984C22BEA95DB25ED /* NibName.swift */,
+				CD7F778B0D9F03AF5DBFD494 /* ImagesAndIconsConstants.swift */,
 			);
 			path = Commons;
+			sourceTree = "<group>";
+		};
+		51DA4B8C26401FF600469F23 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				51DA4B8E2640200200469F23 /* Home */,
+				51DA4B8F2640200B00469F23 /* Add Post */,
+				51DA4B902640201500469F23 /* Update Post */,
+				51DA4B912640202300469F23 /* Post Detail */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		51DA4B8E2640200200469F23 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				51DA4B932640203900469F23 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		51DA4B8F2640200B00469F23 /* Add Post */ = {
+			isa = PBXGroup;
+			children = (
+				51DA4B972640205200469F23 /* View */,
+			);
+			path = "Add Post";
+			sourceTree = "<group>";
+		};
+		51DA4B902640201500469F23 /* Update Post */ = {
+			isa = PBXGroup;
+			children = (
+				51DA4B962640204A00469F23 /* View */,
+			);
+			path = "Update Post";
+			sourceTree = "<group>";
+		};
+		51DA4B912640202300469F23 /* Post Detail */ = {
+			isa = PBXGroup;
+			children = (
+				51DA4B942640204200469F23 /* View */,
+			);
+			path = "Post Detail";
+			sourceTree = "<group>";
+		};
+		51DA4B932640203900469F23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51DA4B7826401FC200469F23 /* HomeViewController.swift */,
+				51DA4B7926401FC200469F23 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51DA4B942640204200469F23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51DA4B8726401FF100469F23 /* PostDetailViewController.swift */,
+				51DA4B8826401FF100469F23 /* PostDetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51DA4B962640204A00469F23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51DA4B8226401FE200469F23 /* UpdatePostViewController.swift */,
+				51DA4B8326401FE200469F23 /* UpdatePostViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51DA4B972640205200469F23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51DA4B7D26401FD200469F23 /* AddPostViewController.swift */,
+				51DA4B7E26401FD200469F23 /* AddPostViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,8 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51DA4B8526401FE200469F23 /* UpdatePostViewController.xib in Resources */,
+				51DA4B8A26401FF100469F23 /* PostDetailViewController.xib in Resources */,
+				51DA4B8026401FD200469F23 /* AddPostViewController.xib in Resources */,
 				51AB2F5F2640195800460F16 /* LaunchScreen.storyboard in Resources */,
 				51AB2F5C2640195800460F16 /* Assets.xcassets in Resources */,
+				51DA4B7B26401FC200469F23 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,12 +264,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				51AB2F532640195600460F16 /* AppDelegate.swift in Sources */,
-				51DA4B6E26401F0E00469F23 /* NibName.swift in Sources */,
+				51DA4B8426401FE200469F23 /* UpdatePostViewController.swift in Sources */,
 				51AB2F552640195600460F16 /* SceneDelegate.swift in Sources */,
-				51DA4B6D26401F0E00469F23 /* ImagesAndIconsConstants.swift in Sources */,
 				CD7F7873060C64A166A9FEE8 /* SceneAssembly.swift in Sources */,
+				51DA4B8926401FF100469F23 /* PostDetailViewController.swift in Sources */,
 				CD7F71CF87C0FFE06868FC73 /* NibName.swift in Sources */,
 				CD7F7643883D7FBEB739CF6F /* ImagesAndIconsConstants.swift in Sources */,
+				51DA4B7A26401FC200469F23 /* HomeViewController.swift in Sources */,
+				51DA4B7F26401FD200469F23 /* AddPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
