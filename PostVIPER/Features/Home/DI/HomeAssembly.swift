@@ -9,7 +9,7 @@ class HomeAssembly {
 
     private func presenter (view: HomeViewControllerProtocol) -> HomePresenterProtocol {
         let presenter = HomePresenter()
-        presenter.interactor = interactor()
+        presenter.interactor = interactor(presenter: presenter)
         presenter.view = view
         presenter.router = router(view: view)
         return presenter
@@ -21,8 +21,22 @@ class HomeAssembly {
         return router
     }
 
-    private func interactor () -> HomeInteractorInput {
+    private func interactor (presenter: HomeInteractorOutput) -> HomeInteractorInput {
         let interactor = HomeInteractor()
+        interactor.getAllPostLoader = getAllPostLoader()
+        interactor.presenter = presenter
         return interactor
     }
+    
+    func getAllPostLoader() -> GetAllPostLoader {
+        let loader = RemoteGetAllPostLoader(url: URL(string: "https://jsonplaceholder.typicode.com/posts")!, client: getClient())
+        return loader
+    }
+    
+    func getClient () -> HTTPClient {
+        let client = URLSessionHTTPClient()
+        return client
+    }
+    
+    
 }
