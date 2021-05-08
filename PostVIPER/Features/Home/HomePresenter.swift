@@ -32,7 +32,6 @@ extension HomePresenter: HomeInteractorOutput {
             DispatchQueue.main.async { [weak view] in
                 view?.getFailure(error: error.localizedDescription)
             }
-            break
         }
     }
 }

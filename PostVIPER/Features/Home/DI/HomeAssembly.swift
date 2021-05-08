@@ -29,14 +29,13 @@ class HomeAssembly {
     }
     
     func getAllPostLoader() -> GetAllPostLoader {
-        let loader = RemoteGetAllPostLoader(url: URL(string: "https://jsonplaceholder.typicode.com/posts")!, client: getClient())
+        let loader = RemotePostLoader(url: BaseURLS.basePostURL, client: getClient())
         return loader
     }
     
     func getClient () -> HTTPClient {
         let client = URLSessionHTTPClient()
         return client
-    }
-    
+    }    
     
 }
