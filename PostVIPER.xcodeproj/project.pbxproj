@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		513DBD0626466D3B0081A490 /* BaseURLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DBD0526466D3B0081A490 /* BaseURLS.swift */; };
+		513DBD1126466F8C0081A490 /* PostPostLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DBD1026466F8C0081A490 /* PostPostLoader.swift */; };
 		51940AF22645B0E1003B7831 /* PostEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51940AF12645B0E1003B7831 /* PostEntity.swift */; };
 		51940AFA2645B4AB003B7831 /* PostLoaderResultMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51940AF92645B4AB003B7831 /* PostLoaderResultMapper.swift */; };
 		51940B022645D0B5003B7831 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51940B012645D0B5003B7831 /* NibLoadableView.swift */; };
@@ -59,6 +61,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		513DBD0526466D3B0081A490 /* BaseURLS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURLS.swift; sourceTree = "<group>"; };
+		513DBD1026466F8C0081A490 /* PostPostLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPostLoader.swift; sourceTree = "<group>"; };
 		51940AF12645B0E1003B7831 /* PostEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEntity.swift; sourceTree = "<group>"; };
 		51940AF92645B4AB003B7831 /* PostLoaderResultMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostLoaderResultMapper.swift; sourceTree = "<group>"; };
 		51940B012645D0B5003B7831 /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
@@ -186,6 +190,7 @@
 				CD7F7A40444D2850226F063A /* TextField+UIApplication.swift */,
 				51940B012645D0B5003B7831 /* NibLoadableView.swift */,
 				51940B102645E420003B7831 /* ReusableView.swift */,
+				513DBD0526466D3B0081A490 /* BaseURLS.swift */,
 				51940B132645E4C7003B7831 /* UITableView+ReusableView.swift */,
 			);
 			path = Commons;
@@ -348,6 +353,7 @@
 				CD7F7B7F8C88516F6E2157E4 /* GetAllPostLoader.swift */,
 				CD7F7D2DB75D099304B4CFA4 /* DeletePostLoaderById.swift */,
 				CD7F7C699DA61667350C4104 /* UpdatePostLoaderById.swift */,
+				513DBD1026466F8C0081A490 /* PostPostLoader.swift */,
 				CD7F7F51D9150E432B6BA81E /* HTTPClient.swift */,
 				CD7F793617DE2733285828B5 /* URLSessionHTTPClient.swift */,
 				CD7F783EA0FFD0754B67B303 /* RemotePostsLoader.swift */,
@@ -436,6 +442,8 @@
 				51DA4BBE2640242A00469F23 /* CustomTabBar.swift in Sources */,
 				51AB2F552640195600460F16 /* SceneDelegate.swift in Sources */,
 				51DA4BBC2640242A00469F23 /* HomeTabViewController.swift in Sources */,
+				513DBD1126466F8C0081A490 /* PostPostLoader.swift in Sources */,
+				513DBD0626466D3B0081A490 /* BaseURLS.swift in Sources */,
 				51DA4BA22640210F00469F23 /* HomeAssembly.swift in Sources */,
 				CD7F7873060C64A166A9FEE8 /* SceneAssembly.swift in Sources */,
 				51DA4B8926401FF100469F23 /* PostDetailViewController.swift in Sources */,
