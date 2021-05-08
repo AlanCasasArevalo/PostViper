@@ -22,3 +22,17 @@ public final class URLSessionHTTPClient: HTTPClient {
         }.resume()
     }
 }
+
+extension URLSessionHTTPClient {
+    public func postUrl(from urlRequest: URLRequest, completion: @escaping (HTTPClientResult) -> Void) {
+        session.dataTask(with: urlRequest) { (data, response, error) in
+            if let error = error {
+                completion(.failure(error))
+            } else if let data = data, let response = response as? HTTPURLResponse {
+                completion(.success(data, response))
+            } else {
+                completion(.failure(UnexpectedValuesRepresentation()))
+            }
+        }.resume()
+    }
+}

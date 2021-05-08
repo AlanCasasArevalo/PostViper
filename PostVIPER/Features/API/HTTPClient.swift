@@ -7,4 +7,5 @@ public enum HTTPClientResult {
 
 public protocol HTTPClient {
     func getUrl(from url: URL, completion: @escaping  (HTTPClientResult) -> Void)
+    func postUrl(from urlRequest: URLRequest, completion: @escaping (HTTPClientResult) -> Void)
 }
