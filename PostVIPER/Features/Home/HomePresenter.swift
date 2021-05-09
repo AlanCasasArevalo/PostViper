@@ -7,16 +7,23 @@ protocol HomeInteractorOutput: class {
 protocol HomePresenterProtocol: class {
     var posts: [PostEntiy]? { get }
     func viewDidLoad ()
+    func navigateToDetail(post: PostEntiy)
 }
 
 class HomePresenter : HomePresenterProtocol {
     weak var view: HomeViewControllerProtocol?
-    weak var router: HomeRouterProtocol?
+    var router: HomeRouterProtocol?
     var interactor: HomeInteractorInput?
     var posts: [PostEntiy]?
 
     func viewDidLoad () {
         interactor?.getAllPostsFromLoader()
+    }
+}
+
+extension HomePresenter {
+    func navigateToDetail(post: PostEntiy) {
+        router?.navigateToDetail(post: post)
     }
 }
 

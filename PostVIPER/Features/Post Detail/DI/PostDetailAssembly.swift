@@ -1,14 +1,14 @@
 import Foundation
 
 class PostDetailAssembly {
-    public func postDetailViewController () -> PostDetailViewController {
+    public func postDetailViewController (post: PostEntiy) -> PostDetailViewController {
         let postDetail = PostDetailViewController(nibName: NibName.postDetailViewController, bundle: nil)
-        postDetail.presenter = presenter(view: postDetail)
+        postDetail.presenter = presenter(view: postDetail, post: post)
         return postDetail
     }
 
-    private func presenter (view: PostDetailViewControllerProtocol) -> PostDetailPresenterProtocol {
-        let presenter = PostDetailPresenter()
+    private func presenter (view: PostDetailViewControllerProtocol, post: PostEntiy) -> PostDetailPresenterProtocol {
+        let presenter = PostDetailPresenter(post: post)
         presenter.interactor = interactor()
         presenter.view = view
         presenter.router = router(view: view)

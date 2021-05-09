@@ -5,6 +5,10 @@ protocol HomeViewControllerProtocol: class {
     func getFailure(error: String)
 }
 
+protocol HomeViewPresentation: class {
+    func navigationToDetail(viewControllerToNavigation: UIViewController)
+}
+
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var postTableView: UITableView!
@@ -47,6 +51,14 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let posts = presenter?.posts else { return }
+        
+        let post = posts[indexPath.row]
+
+        presenter?.navigateToDetail(post: post)
+    }
  
 }
 
@@ -62,4 +74,10 @@ extension HomeViewController: HomeViewControllerProtocol {
         present(alert, animated: true)
     }
 
+}
+
+extension HomeViewController: HomeViewPresentation {
+    func navigationToDetail(viewControllerToNavigation: UIViewController) {
+        self.present(viewControllerToNavigation, animated: true)
+    }
 }

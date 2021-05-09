@@ -22,24 +22,18 @@
 		51DA4B7B26401FC200469F23 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA4B7926401FC200469F23 /* HomeViewController.xib */; };
 		51DA4B7F26401FD200469F23 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4B7D26401FD200469F23 /* AddPostViewController.swift */; };
 		51DA4B8026401FD200469F23 /* AddPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA4B7E26401FD200469F23 /* AddPostViewController.xib */; };
-		51DA4B8426401FE200469F23 /* UpdatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4B8226401FE200469F23 /* UpdatePostViewController.swift */; };
-		51DA4B8526401FE200469F23 /* UpdatePostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA4B8326401FE200469F23 /* UpdatePostViewController.xib */; };
 		51DA4B8926401FF100469F23 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4B8726401FF100469F23 /* PostDetailViewController.swift */; };
 		51DA4B8A26401FF100469F23 /* PostDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA4B8826401FF100469F23 /* PostDetailViewController.xib */; };
 		51DA4B9C264020C700469F23 /* CoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4B9B264020C700469F23 /* CoreAssembly.swift */; };
 		51DA4BA22640210F00469F23 /* HomeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4BA12640210F00469F23 /* HomeAssembly.swift */; };
 		51DA4BA62640216600469F23 /* AddPostAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4BA52640216600469F23 /* AddPostAssembly.swift */; };
-		51DA4BAB2640222900469F23 /* UpdatePostAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4BAA2640222900469F23 /* UpdatePostAssembly.swift */; };
 		51DA4BAF2640223F00469F23 /* PostDetailAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4BAE2640223F00469F23 /* PostDetailAssembly.swift */; };
 		51DA4BBC2640242A00469F23 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4BB82640242A00469F23 /* HomeTabViewController.swift */; };
 		51DA4BBD2640242A00469F23 /* HomeTabAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4BB92640242A00469F23 /* HomeTabAssembly.swift */; };
 		51DA4BBE2640242A00469F23 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4BBA2640242A00469F23 /* CustomTabBar.swift */; };
 		51DA4BBF2640242A00469F23 /* HomeTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA4BBB2640242A00469F23 /* HomeTabViewController.xib */; };
 		51DA4BC32640633900469F23 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA4BC22640633900469F23 /* HomePresenter.swift */; };
-		CD7F703C1954E7C58BD5EBF1 /* UpdatePostPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F774074B319F7C3635704 /* UpdatePostPresenter.swift */; };
-		CD7F7132FBEDD75CBBF033AC /* UpdatePostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F77F16DE24A4208765960 /* UpdatePostRouter.swift */; };
 		CD7F71CF87C0FFE06868FC73 /* NibName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F72A984C22BEA95DB25ED /* NibName.swift */; };
-		CD7F753FC8C5DFF88ABD78AE /* UpdatePostInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F7B41995FC529FECE3657 /* UpdatePostInteractor.swift */; };
 		CD7F754C94F33B740B3C62FD /* TextField+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F7A40444D2850226F063A /* TextField+UIApplication.swift */; };
 		CD7F7618A6C1C59A896E9174 /* DeletePostLoaderById.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F7D2DB75D099304B4CFA4 /* DeletePostLoaderById.swift */; };
 		CD7F762DD3845D42067B7341 /* PostDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F74DE0AFD16EADA8D1588 /* PostDetailInteractor.swift */; };
@@ -78,14 +72,11 @@
 		51DA4B7926401FC200469F23 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		51DA4B7D26401FD200469F23 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
 		51DA4B7E26401FD200469F23 /* AddPostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPostViewController.xib; sourceTree = "<group>"; };
-		51DA4B8226401FE200469F23 /* UpdatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePostViewController.swift; sourceTree = "<group>"; };
-		51DA4B8326401FE200469F23 /* UpdatePostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdatePostViewController.xib; sourceTree = "<group>"; };
 		51DA4B8726401FF100469F23 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
 		51DA4B8826401FF100469F23 /* PostDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostDetailViewController.xib; sourceTree = "<group>"; };
 		51DA4B9B264020C700469F23 /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
 		51DA4BA12640210F00469F23 /* HomeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssembly.swift; sourceTree = "<group>"; };
 		51DA4BA52640216600469F23 /* AddPostAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostAssembly.swift; sourceTree = "<group>"; };
-		51DA4BAA2640222900469F23 /* UpdatePostAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePostAssembly.swift; sourceTree = "<group>"; };
 		51DA4BAE2640223F00469F23 /* PostDetailAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailAssembly.swift; sourceTree = "<group>"; };
 		51DA4BB82640242A00469F23 /* HomeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
 		51DA4BB92640242A00469F23 /* HomeTabAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabAssembly.swift; sourceTree = "<group>"; };
@@ -98,15 +89,12 @@
 		CD7F72A984C22BEA95DB25ED /* NibName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibName.swift; sourceTree = "<group>"; };
 		CD7F74DE0AFD16EADA8D1588 /* PostDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailInteractor.swift; sourceTree = "<group>"; };
 		CD7F7555F4909223CD7F5D14 /* PostLoaderById.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostLoaderById.swift; sourceTree = "<group>"; };
-		CD7F774074B319F7C3635704 /* UpdatePostPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePostPresenter.swift; sourceTree = "<group>"; };
 		CD7F778B0D9F03AF5DBFD494 /* ImagesAndIconsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesAndIconsConstants.swift; sourceTree = "<group>"; };
-		CD7F77F16DE24A4208765960 /* UpdatePostRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePostRouter.swift; sourceTree = "<group>"; };
 		CD7F783EA0FFD0754B67B303 /* RemotePostsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemotePostsLoader.swift; sourceTree = "<group>"; };
 		CD7F7894C1724C07189FD923 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		CD7F793617DE2733285828B5 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		CD7F79E2D46CC6436A974D70 /* AddPostInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostInteractor.swift; sourceTree = "<group>"; };
 		CD7F7A40444D2850226F063A /* TextField+UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField+UIApplication.swift"; sourceTree = "<group>"; };
-		CD7F7B41995FC529FECE3657 /* UpdatePostInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePostInteractor.swift; sourceTree = "<group>"; };
 		CD7F7B7F8C88516F6E2157E4 /* GetAllPostLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllPostLoader.swift; sourceTree = "<group>"; };
 		CD7F7C699DA61667350C4104 /* UpdatePostLoaderById.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePostLoaderById.swift; sourceTree = "<group>"; };
 		CD7F7C741F2D4B9AEC9AD697 /* PostDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailPresenter.swift; sourceTree = "<group>"; };
@@ -203,7 +191,6 @@
 				51DA4BB72640242A00469F23 /* HomeTab */,
 				51DA4B8E2640200200469F23 /* Home */,
 				51DA4B8F2640200B00469F23 /* Add Post */,
-				51DA4B902640201500469F23 /* Update Post */,
 				51DA4B912640202300469F23 /* Post Detail */,
 				51DA4B9F264020D000469F23 /* DI */,
 				51DA4BEB2640784A00469F23 /* API */,
@@ -235,18 +222,6 @@
 			path = "Add Post";
 			sourceTree = "<group>";
 		};
-		51DA4B902640201500469F23 /* Update Post */ = {
-			isa = PBXGroup;
-			children = (
-				51DA4B962640204A00469F23 /* View */,
-				51DA4BAD2640222F00469F23 /* DI */,
-				CD7F774074B319F7C3635704 /* UpdatePostPresenter.swift */,
-				CD7F7B41995FC529FECE3657 /* UpdatePostInteractor.swift */,
-				CD7F77F16DE24A4208765960 /* UpdatePostRouter.swift */,
-			);
-			path = "Update Post";
-			sourceTree = "<group>";
-		};
 		51DA4B912640202300469F23 /* Post Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,15 +248,6 @@
 			children = (
 				51DA4B8726401FF100469F23 /* PostDetailViewController.swift */,
 				51DA4B8826401FF100469F23 /* PostDetailViewController.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		51DA4B962640204A00469F23 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				51DA4B8226401FE200469F23 /* UpdatePostViewController.swift */,
-				51DA4B8326401FE200469F23 /* UpdatePostViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -315,14 +281,6 @@
 			isa = PBXGroup;
 			children = (
 				51DA4BA52640216600469F23 /* AddPostAssembly.swift */,
-			);
-			path = DI;
-			sourceTree = "<group>";
-		};
-		51DA4BAD2640222F00469F23 /* DI */ = {
-			isa = PBXGroup;
-			children = (
-				51DA4BAA2640222900469F23 /* UpdatePostAssembly.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -419,7 +377,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51DA4B8526401FE200469F23 /* UpdatePostViewController.xib in Resources */,
 				51DA4B8A26401FF100469F23 /* PostDetailViewController.xib in Resources */,
 				51DA4BBF2640242A00469F23 /* HomeTabViewController.xib in Resources */,
 				51DA4B8026401FD200469F23 /* AddPostViewController.xib in Resources */,
@@ -438,7 +395,6 @@
 			files = (
 				51DA4BAF2640223F00469F23 /* PostDetailAssembly.swift in Sources */,
 				51AB2F532640195600460F16 /* AppDelegate.swift in Sources */,
-				51DA4B8426401FE200469F23 /* UpdatePostViewController.swift in Sources */,
 				51DA4BBE2640242A00469F23 /* CustomTabBar.swift in Sources */,
 				51AB2F552640195600460F16 /* SceneDelegate.swift in Sources */,
 				51DA4BBC2640242A00469F23 /* HomeTabViewController.swift in Sources */,
@@ -452,7 +408,6 @@
 				51DA4BBD2640242A00469F23 /* HomeTabAssembly.swift in Sources */,
 				51DA4B7A26401FC200469F23 /* HomeViewController.swift in Sources */,
 				51940AFA2645B4AB003B7831 /* PostLoaderResultMapper.swift in Sources */,
-				51DA4BAB2640222900469F23 /* UpdatePostAssembly.swift in Sources */,
 				51DA4BA62640216600469F23 /* AddPostAssembly.swift in Sources */,
 				51DA4BC32640633900469F23 /* HomePresenter.swift in Sources */,
 				51940B142645E4C7003B7831 /* UITableView+ReusableView.swift in Sources */,
@@ -460,17 +415,14 @@
 				51DA4B7F26401FD200469F23 /* AddPostViewController.swift in Sources */,
 				CD7F7D677F8647DF817AF407 /* AddPostPresenter.swift in Sources */,
 				CD7F785F5A0EDA0F0C3FD588 /* PostDetailPresenter.swift in Sources */,
-				CD7F703C1954E7C58BD5EBF1 /* UpdatePostPresenter.swift in Sources */,
 				CD7F79991ADA08CE07C22ECB /* AddPostInteractor.swift in Sources */,
 				CD7F7C90A5D135C14382207C /* HomeInteractor.swift in Sources */,
 				CD7F762DD3845D42067B7341 /* PostDetailInteractor.swift in Sources */,
 				51940B022645D0B5003B7831 /* NibLoadableView.swift in Sources */,
 				51940AF22645B0E1003B7831 /* PostEntity.swift in Sources */,
-				CD7F753FC8C5DFF88ABD78AE /* UpdatePostInteractor.swift in Sources */,
 				CD7F7F506AE7D548CD3ACE1C /* AddPostRouter.swift in Sources */,
 				CD7F7F7291D1AA5862B914FF /* HomeRouter.swift in Sources */,
 				CD7F7F94DC3396F46274F9AB /* PostDetailRouter.swift in Sources */,
-				CD7F7132FBEDD75CBBF033AC /* UpdatePostRouter.swift in Sources */,
 				CD7F754C94F33B740B3C62FD /* TextField+UIApplication.swift in Sources */,
 				51940B112645E420003B7831 /* ReusableView.swift in Sources */,
 				CD7F7F5686A336A843D319E5 /* PostLoaderById.swift in Sources */,

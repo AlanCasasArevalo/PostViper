@@ -15,6 +15,13 @@ class PostDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setupUI()
+    }
+    
+    func setupUI () {
+        titleLabel.text = presenter?.post.title
+        bodyLabel.text = presenter?.post.body
+        postIdLabel.text = "\(presenter?.post.id ?? 0)"
     }
 
 }
